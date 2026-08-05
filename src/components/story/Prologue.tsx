@@ -110,7 +110,7 @@ export function Prologue() {
         transition={{ duration: 1.5, delay: 3.2 }}
         className="absolute bottom-10 flex flex-col items-center gap-3"
       >
-        <span className="text-[0.65rem] uppercase tracking-[0.4em] text-foreground/60">
+        <span className="text-[0.65rem] font-bold uppercase tracking-[0.4em] text-foreground/60">
           scroll to begin
         </span>
         <span className="h-14 w-px animate-scroll-hint bg-gradient-to-b from-foreground/60 to-transparent" />
